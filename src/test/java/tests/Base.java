@@ -45,7 +45,7 @@ public class Base {
   public void setUp(@Optional String browser,@Optional String version, @Optional String platform) {
     logger.log(Level.FINE, String.format("setUp - browser: %s, version: %s, platform: %s", browser, version,platform));
 
-    driver = tests.BrowserType.BrowserType.Execute(browser, platform);
+    driver = tests.BrowserType.BrowserType.Execute(browser, version,platform);
   }
 
   @AfterTest

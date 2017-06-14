@@ -22,9 +22,9 @@ public class BrowserType {
 
   private static final Logger logger = Logger.getLogger(BrowserType.class.getName());
 
-  public static WebDriver Execute(String browser, String platform) {
+  public static WebDriver Execute(String browser, String version,String platform) {
     logger.log(Level.FINE, String
-        .format("Creating web driver for browser \"%s\" on \"%s\" platform", browser, platform));
+        .format("Creating web driver for browser \"%s\" on version\"%s\" on \"%s\" platform", browser, platform));
 
     browser = StringUtils.isNotEmpty(browser) ? browser : Config.defaultBrowser;
 
