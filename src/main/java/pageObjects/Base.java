@@ -40,6 +40,7 @@ public class Base {
 
   public void click(By locator) {
     find(locator).click();
+    
   }
 
   public void click(By locator, long maxWaitSeconds) {
