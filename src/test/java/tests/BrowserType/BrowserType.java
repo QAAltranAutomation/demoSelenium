@@ -80,7 +80,7 @@ public class BrowserType {
 
     if (browser.equalsIgnoreCase("chrome")) {
       caps = DesiredCapabilities.chrome();
-      System.setProperty("webdriver.chrome.driver", "../../chromedriver.exe");
+      System.setProperty("webdriver.chrome.driver", "/chromedriver7chromedriver.exe");
     } else if (browser.equalsIgnoreCase("firefox")) {
       caps = DesiredCapabilities.firefox();
       System.setProperty("webdriver.gecko.driver", "/Users/sonia.cepedano/Documents/Automatizacion/geckodriver.exe");
