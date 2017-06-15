@@ -3,7 +3,7 @@
 		<parameter name="browser" value="chrome" />
 		<parameter name ="version" value="59"/>
 		<parameter name="platform" value="windows" />
-		<parameter name="url" value="http://www.gmail.com" />
+		<parameter name="url" value="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" />
 		<parameter name="Username" value="sonia.cepedanoduenas" />
 		<parameter name="Password" value="Silvia1978" />
 		<classes>
