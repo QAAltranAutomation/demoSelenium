@@ -14,6 +14,7 @@ public class LoginPage extends pageObjects.Base {
   By userNameLocator = By.id("identifierId");
   By nextElementButton = By.className("CwaK9");
   By passWordLocator = By.className("whsOnd zHQkBf");
+  By buttonLogin = By.className("RveJvd snByac");
   
 
   public LoginPage(WebDriver driver) {
@@ -50,4 +51,9 @@ public class LoginPage extends pageObjects.Base {
       type(pass,passWordLocator);
     }
  }
+  public void clickButtonNextLogin(){
+    if(isDisplayed(buttonLogin)){
+      click(buttonLogin);
+    }
+  }
 }
