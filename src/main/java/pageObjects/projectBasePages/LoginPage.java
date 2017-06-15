@@ -9,7 +9,8 @@ public class LoginPage extends pageObjects.Base {
   /**
    * gmail Locator's
    */
-
+  
+  By signInButton = By.className("gmail-nav__nav-link gmail-nav__nav-link__sign-in");
   By userNameLocator = By.id("identifierId");
   By nextElementButton = By.className("CwaK9");
   By passWordLocator = By.cssSelector(".whsOnd.zHQkBf");
@@ -22,6 +23,12 @@ public class LoginPage extends pageObjects.Base {
   public LoginPage(WebDriver driver, String url) {
     super(driver);
     visit(url);
+  }
+  
+  public void pulsarSignIn(){
+    if (isDisplayed(signInButton)){
+      click(signInButton);
+    }
   }
   
   public void introducirUserName(String nombre){

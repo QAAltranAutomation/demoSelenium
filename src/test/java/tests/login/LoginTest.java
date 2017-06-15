@@ -25,6 +25,7 @@ public class LoginTest extends tests.Base {
       @Optional String password) throws InterruptedException {
 
     loginPage = new LoginPage(driver, url);
+    loginPage.pulsarSignIn();
     String nombre = "sonia.cepedanoduenas";
     loginPage.introducirUserName(nombre);
     Thread.sleep(3600);
