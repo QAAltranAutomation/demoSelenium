@@ -25,10 +25,11 @@ public class LoginTest extends tests.Base {
       @Optional String password) throws InterruptedException {
 
     loginPage = new LoginPage(driver, url);
-    loginPage.pulsarSignIn();
+    //loginPage.pulsarSignIn();
+    Thread.sleep(1200);
     String nombre = "sonia.cepedanoduenas";
     loginPage.introducirUserName(nombre);
-    Thread.sleep(3600);
+    Thread.sleep(1200);
     loginPage.pulsarSiguiente();
     String pass ="Silvia1978";
     loginPage.introducirPassword(pass);

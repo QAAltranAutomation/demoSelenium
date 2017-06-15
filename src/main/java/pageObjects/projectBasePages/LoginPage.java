@@ -13,7 +13,7 @@ public class LoginPage extends pageObjects.Base {
   By signInButton = By.className("gmail-nav__nav-link gmail-nav__nav-link__sign-in");
   By userNameLocator = By.id("identifierId");
   By nextElementButton = By.className("CwaK9");
-  By passWordLocator = By.cssSelector(".whsOnd.zHQkBf");
+  By passWordLocator = By.className("whsOnd zHQkBf");
   
 
   public LoginPage(WebDriver driver) {
