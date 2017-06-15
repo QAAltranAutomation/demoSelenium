@@ -24,7 +24,7 @@ public class BrowserType {
 
   public static WebDriver Execute(String browser, String version,String platform) {
     logger.log(Level.FINE, String
-        .format("Creating web driver for browser \"%s\" on version\"%s\" on \"%s\" platform", browser, platform));
+        .format("Creating web driver for browser \"%s\" on version\"%s\" on \"%s\" platform", browser, version ,platform));
 
     browser = StringUtils.isNotEmpty(browser) ? browser : Config.defaultBrowser;
 

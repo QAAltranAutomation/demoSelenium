@@ -40,12 +40,12 @@ public class Base {
     logger.log(Level.FINE, "AfterClass");
   }
 
-  @Parameters({"browser", "platform"})
+  @Parameters({"browser", "version","platform"})
   @BeforeTest
   public void setUp(@Optional String browser,@Optional String version, @Optional String platform) {
     logger.log(Level.FINE, String.format("setUp - browser: %s, version: %s, platform: %s", browser, version,platform));
 
-    driver = tests.BrowserType.BrowserType.Execute(browser, version,platform);
+    driver = tests.BrowserType.BrowserType.Execute(browser, version, platform);
   }
 
   @AfterTest
