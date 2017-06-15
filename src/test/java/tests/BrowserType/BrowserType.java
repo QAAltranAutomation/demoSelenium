@@ -83,7 +83,7 @@ public class BrowserType {
       System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver.exe");
     } else if (browser.equalsIgnoreCase("firefox")) {
       caps = DesiredCapabilities.firefox();
-      System.setProperty("webdriver.gecko.driver", "/Users/sonia.cepedano/Documents/Automatizacion/geckodriver.exe");
+      System.setProperty("webdriver.gecko.driver", "geckodriver/geckodriver.exe");
       caps.setCapability("marionette", true);
     } else if (browser.equalsIgnoreCase("ie")) {
       // System.setProperty("webdriver.ie.driver",
