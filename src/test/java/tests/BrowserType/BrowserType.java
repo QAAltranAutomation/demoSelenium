@@ -86,8 +86,7 @@ public class BrowserType {
       System.setProperty("webdriver.gecko.driver", "geckodriver/geckodriver.exe");
       caps.setCapability("marionette", true);
     } else if (browser.equalsIgnoreCase("ie")) {
-      // System.setProperty("webdriver.ie.driver",
-      // "C:/Documents/Automation/IEDriverServer.exe");
+      System.setProperty("webdriver.ie.driver","IEDriverServer/IEDriverServer.exe");
       caps = DesiredCapabilities.internetExplorer();
       caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,
           true);

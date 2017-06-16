@@ -3,7 +3,7 @@
 		<parameter name="browser" value="Firefox" />
 		<parameter name ="version" value="53"/>
 		<parameter name="platform" value="windows" />
-		<parameter name="url" value="http://www.gmail.com" />
+		<parameter name="url" value="https://www.google.com/gmail/about/#" />
 		<parameter name="Username" value="sonia.cepedanoduenas" />
 		<parameter name="Password" value="Silvia1978" />
 		<classes>
