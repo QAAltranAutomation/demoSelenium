@@ -3,6 +3,8 @@ package pageObjects.projectBasePages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import utility.Constants;
+
 
 
 public class LoginPage extends pageObjects.Base {
@@ -55,5 +57,8 @@ public class LoginPage extends pageObjects.Base {
     if(isDisplayed(buttonLogin)){
       click(buttonLogin);
     }
+  }
+  public Boolean isUserLoggedIn() {
+    return getCurrentUrl().contains(Constants.INITPAGE);
   }
 }
