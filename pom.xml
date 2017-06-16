@@ -7,7 +7,7 @@
 	<name>Demo_Altran_Selenium</name>
 	<profiles>
 		<profile>
-			<id>Demo</id>
+			<id>Gmail</id>
 			<build>
 				<plugins>
 					<plugin>

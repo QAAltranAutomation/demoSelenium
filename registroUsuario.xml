@@ -1,0 +1,13 @@
+<suite name="Demo automatizacion" parallel="tests" thread-count="1">
+	<test name="Login Test">
+		<parameter name="browser" value="Chrome" />
+		<parameter name ="version" value="59"/>
+		<parameter name="platform" value="windows" />
+		<parameter name="url" value="https://www.gmail.com" />
+		<parameter name="username" value="sonia.cepedanoduenas" />
+		<parameter name="password" value="Silvia1978" />
+		<classes>
+			<class name="tests.caser.RegistrarUsuario" />
+		</classes>
+	</test>
+</suite>
