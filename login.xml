@@ -3,9 +3,9 @@
 		<parameter name="browser" value="Chrome" />
 		<parameter name ="version" value="59"/>
 		<parameter name="platform" value="windows" />
-		<parameter name="url" value="https://www.google.com/gmail/about/#" />
-		<parameter name="Username" value="sonia.cepedanoduenas" />
-		<parameter name="Password" value="Silvia1978" />
+		<parameter name="url" value="https://www.gmail.com" />
+		<parameter name="username" value="sonia.cepedanoduenas" />
+		<parameter name="password" value="Silvia1978" />
 		<classes>
 			<class name="tests.login.LoginTest" />
 		</classes>

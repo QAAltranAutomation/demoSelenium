@@ -31,9 +31,12 @@ public class LoginTest extends tests.Base {
     loginPage.introducirUserName(nombre);
     Thread.sleep(1200);
     loginPage.pulsarSiguiente();
+    Thread.sleep(1200);
     String pass ="Silvia1978";
     loginPage.introducirPassword(pass);
+    Thread.sleep(1200);
     loginPage.clickButtonNextLogin();
+    Thread.sleep(1200);
     loginPage.isUserLoggedIn();
   }
 }

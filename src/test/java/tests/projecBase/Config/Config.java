@@ -5,7 +5,7 @@ public class Config {
   public static String defaultBrowserVersion = System.getProperty("version", "59");
   public static String defaultPlatform = System.getProperty("platform", "local");
 
-  public static String baseUrl = System.getProperty("https://www.google.com/gmail/about/#");
+  public static String baseUrl = System.getProperty("https://www.gmail.com");
 
 
 }

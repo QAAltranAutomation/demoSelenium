@@ -15,8 +15,8 @@ public class LoginPage extends pageObjects.Base {
   By signInButton = By.className("gmail-nav__nav-link gmail-nav__nav-link__sign-in");
   By userNameLocator = By.id("identifierId");
   By nextElementButton = By.className("CwaK9");
-  By passWordLocator = By.className("whsOnd zHQkBf");
-  By buttonLogin = By.className("RveJvd snByac");
+  By passWordLocator = By.cssSelector(".whsOnd.zHQkBf");
+  By buttonLogin = By.cssSelector(".RveJvd.snByac");
   
 
   public LoginPage(WebDriver driver) {
@@ -48,8 +48,6 @@ public class LoginPage extends pageObjects.Base {
   }
   public void introducirPassword(String pass){
     if (isDisplayed(passWordLocator)){
-      click(passWordLocator);
-      clear(passWordLocator);
       type(pass,passWordLocator);
     }
  }
