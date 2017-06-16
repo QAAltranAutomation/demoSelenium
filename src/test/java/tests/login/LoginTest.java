@@ -34,5 +34,6 @@ public class LoginTest extends tests.Base {
     String pass ="Silvia1978";
     loginPage.introducirPassword(pass);
     loginPage.clickButtonNextLogin();
+    loginPage.isUserLoggedIn();
   }
 }
