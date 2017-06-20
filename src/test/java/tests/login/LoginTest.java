@@ -35,7 +35,7 @@ public class LoginTest extends tests.Base {
     String pass ="Silvia197";
     loginPage.introducirPassword(pass);
     Thread.sleep(1200);
-    loginPage.clickButtonNextLogin();
+    //loginPage.clickButtonNextLogin();
     Thread.sleep(1200);
     loginPage.isUserLoggedIn();
   }
