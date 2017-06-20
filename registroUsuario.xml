@@ -4,7 +4,7 @@
 		<parameter name ="version" value="59"/>
 		<parameter name="platform" value="windows" />
 		<parameter name="url" value="https://www.caser.es/" />
-		<parameter name="username" value="sonia.cepedanoduenas" />
+		<parameter name="username" value="sonia.cepedano" />
 		<parameter name="password" value="Silvia1978" />
 		<classes>
 			<class name="tests.caser.RegistrarUsuario" />
