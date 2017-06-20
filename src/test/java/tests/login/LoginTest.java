@@ -32,7 +32,7 @@ public class LoginTest extends tests.Base {
     Thread.sleep(1200);
     loginPage.pulsarSiguiente();
     Thread.sleep(1200);
-    String pass ="Silvia1978";
+    String pass ="Silvia197";
     loginPage.introducirPassword(pass);
     Thread.sleep(1200);
     loginPage.clickButtonNextLogin();

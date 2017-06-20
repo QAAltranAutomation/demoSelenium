@@ -5,7 +5,7 @@
 		<parameter name="platform" value="windows" />
 		<parameter name="url" value="https://www.gmail.com" />
 		<parameter name="username" value="sonia.cepedanoduenas" />
-		<parameter name="password" value="Silvia1978" />
+		<parameter name="password" value="Silvia197" />
 		<classes>
 			<class name="tests.login.LoginTest" />
 		</classes>
