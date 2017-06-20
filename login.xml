@@ -1,7 +1,7 @@
 <suite name="Demo automatizacion" parallel="tests" thread-count="1">
 	<test name="Login Test">
-		<parameter name="browser" value="Chrome" />
-		<parameter name ="version" value="59"/>
+		<parameter name="browser" value="firefox" />
+		<parameter name ="version" value="53"/>
 		<parameter name="platform" value="windows" />
 		<parameter name="url" value="https://www.gmail.com" />
 		<parameter name="username" value="sonia.cepedanoduenas" />

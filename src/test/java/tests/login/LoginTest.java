@@ -30,10 +30,10 @@ public class LoginTest extends tests.Base {
     String nombre = "sonia.cepedanoduenas";
     loginPage.introducirUserName(nombre);
     Thread.sleep(1200);
-    loginPage.pulsarSiguiente();
+    //loginPage.pulsarSiguiente();
     Thread.sleep(1200);
     String pass ="Silvia197";
-    loginPage.introducirPassword(pass);
+   loginPage.introducirPassword(pass);
     Thread.sleep(1200);
     //loginPage.clickButtonNextLogin();
     Thread.sleep(1200);
